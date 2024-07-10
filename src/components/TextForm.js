@@ -39,7 +39,7 @@ export default function TextForm(props) {
     return (
         <>
             <div className="container" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
-                <h1>{props.heading}</h1>
+                <h1>Textcraft - Word Counter, Character Counter, Remove extra Spaces</h1>
                 <div className="mb-3">
                     <label htmlFor="mybox" className="form-label mb-3">Enter yor text below...</label>
                     <textarea className="form-control" value={text} onChange={handleOnChange} style={{ backgroundColor: props.mode === 'dark' ? 'black' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} id="mybox" rows="8"></textarea>
