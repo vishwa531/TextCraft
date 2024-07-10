@@ -1,0 +1,6 @@
+{
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "files.associations": {
+        "javascript": "reactjs"
+    }
+}
